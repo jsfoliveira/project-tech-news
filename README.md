@@ -1,4 +1,4 @@
-# 	:woman_technologist: Project Delivery App
+# 	:woman_technologist: Project Tech News
 
 Esse projeto contém uma série de informações sobre o que eu aprendi aqui na Trybe ao longo  do curso de desenvolvimento web da Trybe. <br>
 O objetivo principal desse projeto é fazer consultas em notícias sobre tecnologia.
