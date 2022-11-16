@@ -1,31 +1,11 @@
-# Boas-vindas ao repositório do Tech News
+# 	:woman_technologist: Project Delivery App
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+Esse projeto contém uma série de informações sobre o que eu aprendi aqui na Trybe ao longo  do curso de desenvolvimento web da Trybe. <br>
+O objetivo principal desse projeto é fazer consultas em notícias sobre tecnologia.
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+  As notíciasforam obtidas através da raspagem do [_blog da Trybe_](https://blog.betrybe.com).
 
-# Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe.
-
-# Entregáveis
-
-<details>
-  <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
-
-  Para entregar o seu projeto você deverá criar um *Pull Request* neste repositório.
-
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/4d67f5b4-34a6-489f-a205-b6c7dc50fc16/) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
-</details>
-
-<details>
-  <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
-
-  Você fará um projeto que tem como principal objetivo fazer consultas em notícias sobre tecnologia.
-
-  As notícias podem ser obtidas através da raspagem do [_blog da Trybe_](https://blog.betrybe.com).
-
-  <strong>🚵 Habilidades a serem trabalhadas:</strong>
+  <strong>🚵 Habilidades que foram trabalhadas:</strong>
   <ul>
     <li>Utilizar o terminal interativo do Python</li>
     <li>Escrever seus próprios módulos e importá-los em outros códigos</li>
@@ -36,91 +16,20 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
 </details>
 
-<details>
-  <summary><strong>🗓 Data de Entrega</strong></summary><br />
-  
-  * Este projeto é individual;
-  * Serão `2` dias de projeto;
-  * Data para entrega no prazo regular: `16/11/2022 14:00`.
-
-</details>
-
-
-# Orientações
-<details>
-  <summary><strong>⚠ Antes de começar a desenvolver</strong></summary><br />
-
-  1. Clone o repositório
-
-  - Use o comando: `git clone git@github.com:tryber/sd-019-a-tech-news.git`
-  - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-019-a-tech-news`
-
-  2. Crie o ambiente virtual para o projeto
-
+## :rocket:Começando
+Esse projeto foi proposto pelo curso de desenvolvimento web da Trybe.
+### Desenvolvimento
+Esse projeto foi desenvolvido no bloco de ciências da computação. Pude desenvolver habilidades de arquitetura de redes e raspagens de dados.
+### Commits
+Os commits foram feitos de acordo com os requisitos finalizados.
+### Branch
+Todo o projeto foi feita na branch 'juliana-oliveira-tech-news'.
+### Instalação (sem Docker)
+Antes de rodar o projeto, é necessário criar o ambiente virtual e instalar as dependências através dos comandos:
   - `python3 -m venv .venv && source .venv/bin/activate`
-  
-  3. Instale as dependências
-
   - `python3 -m pip install -r dev-requirements.txt`
-  
-  4. Crie uma branch a partir da branch `main`
 
-  - Verifique que você está na branch `main`
-    - Exemplo: `git branch`
-  - Se não estiver, mude para a branch `main`
-    - Exemplo: `git checkout main`
-  - Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
-    - Você deve criar uma branch no seguinte formato: `nome-github-nome-do-projeto`
-    - Exemplo: `git checkout -b joaozinho-tech-news`
-
-  5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-  - Verifique que as mudanças ainda não estão no _stage_
-    - Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
-  - Adicione o novo arquivo ao _stage_ do Git
-    - Exemplo:
-      - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-      - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-  - Faça o `commit` inicial
-    - Exemplo:
-      - `git commit -m 'iniciando o projeto tech-news'` (fazendo o primeiro commit)
-      - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-  6. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-  - Usando o exemplo anterior: `git push -u origin joaozinho-tech-news`
-
-  7. Crie um novo `Pull Request` _(PR)_
-
-  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-tech-news/pulls)
-  - Clique no botão verde _"New pull request"_
-  - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-  - Coloque um título para a sua _Pull Request_
-    - Exemplo: _"Cria tela de busca"_
-  - Clique no botão verde _"Create pull request"_
-  - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-  - **Não se preocupe em preencher mais nada por enquanto!**
-  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-tech-news/pulls) e confira que o seu _Pull Request_ está criado
-
-</details>
-
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-
-  - Faça `commits` das alterações que você fizer no código regularmente
-
-  - Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-  - Os comandos que você utilizará com mais frequência são:
-    1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-    2. `git add` _(para adicionar arquivos ao stage do Git)_
-    3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-    4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-    5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-</details>
-
+### Estrutura do projeto
 <details>
   <summary><strong>🧱 Estrutura do Projeto</strong></summary><br />
   Este repositório já contém um template com a estrutura de diretórios e arquivos, tanto de código quanto de teste criados. Veja abaixo:
@@ -162,114 +71,13 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
 </details>
 
+### Raspagem de dados
+<summary><strong>🏃🏾 Executando o Projeto</strong></summary>
+As notícias que foram raspadas estão disponíveis no _Blog da Trybe_: https://blog.betrybe.com.<br>
+Essas notícias foram salvas no banco de dados utilizando as funções python que já vêm prontas no módulo `database.py`
+
+### Mongo
 <details>
-  <summary><strong>🎛 Linter</strong></summary><br />
-
-  Para garantir a qualidade do código, vamos utilizar neste projeto o linter `Flake8`.
-  Assim o código estará alinhado com as boas práticas de desenvolvimento, sendo mais legível
-  e de fácil manutenção! Para rodá-lo localmente no projeto, execute o comandos abaixo:
-
-  ```bash
-  python3 -m flake8
-  ```
-
-  ⚠️ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS.
-  ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠️
-</details>
-
-<details>
-  <summary><strong>🏕️ Ambiente Virtual</strong></summary><br />
-  O Python oferece um recurso chamado de ambiente virtual, onde permite sua máquina rodar sem conflitos, diferentes tipos de projetos com diferentes versões de bibliotecas.
-
-  1. **criar o ambiente virtual**
-
-  ```bash
-python3 -m venv .venv
-  ```
-
-  2. **ativar o ambiente virtual**
-
-  ```bash
-source .venv/bin/activate
-  ```
-
-  3. **instalar as dependências no ambiente virtual**
-
-  ```bash
-python3 -m pip install -r dev-requirements.txt
-  ```
-
-  Com o seu ambiente virtual ativo, as dependências serão instaladas neste ambiente.
-  Quando precisar desativar o ambiente virtual, execute o comando "deactivate". Lembre-se de ativar novamente quando voltar a trabalhar no projeto.
-
-  O arquivo `dev-requirements.txt` contém todas as dependências que serão utilizadas no projeto, ele está agindo como se fosse um `package.json` de um projeto `Node.js`.
-</details>
-
-<details>
-  <summary><strong>🛠 Testes</strong></summary><br />
-
-  Para executar os testes certifique-se de que você está com o ambiente virtual ativado
-
-  <strong>Executar os testes</strong>
-
-  ```bash
-python3 -m pytest
-  ```
-
-  O arquivo `pyproject.toml` já configura corretamente o pytest. Entretanto, caso você tenha problemas com isso e queira explicitamente uma saída completa, o comando é:
-
-  ```bash
-  python3 -m pytest -s -vv
-  ```
-
-  Caso precise executar apenas um arquivo de testes basta executar o comando:
-
-  ```bash
-  python3 -m pytest tests/nomedoarquivo.py
-  ```
-
-  Caso precise executar apenas uma função de testes basta executar o comando:
-
-  ```bash
-  python3 -m pytest -k nome_da_func_de_tests
-  ```
-
-  Se desejar que os testes parem de ser executados quando acontecer o primeiro erro, use o parâmetro `-x`
-
-  ```bash
-  python3 -m pytest -x tests/nomedoarquivo.py
-  ```
-
-  Caso queria executar um teste especifico de um arquivo basta executar o comando:
-
-  ```bash
-  python3 -m pytest -x tests/nomedoarquivo.py::test_nome_do_teste
-  ```
-
-  Se quiser saber mais sobre a instalação de dependências com `pip`, veja esse [artigo](https://medium.com/python-pandemonium/better-python-dependency-and-package-management-b5d8ea29dff1).
-
-  <strong>✍️ Teste Manual</strong>
-  
-  Abra um terminal Python importando as funções de interesse através do comando:
-
-  <code>python3 -i tech_news/arquivo_de_interesse.py</code> 
-
-</details>
-
-<details>
-  <summary><strong>🐳Docker</strong></summary>
-  Caso queria executar os seus testes de projeto via `Docker-compose`, substituindo o ambiente virtual, execute o comando:
-
-  ```bash
-  docker-compose run --rm news pytest
-  ```
-</details>
-
-<details>
-  <summary><strong>🏃🏾 Executando o Projeto</strong></summary>
-  As notícias a serem raspadas estarão disponíveis no _Blog da Trybe_: https://blog.betrybe.com.
-  Essas notícias devem ser salvas no banco de dados utilizando as funções python que já vêm prontas no módulo `database.py`
-
   <strong>MongoDB</strong>
 
   Para a realização deste projeto, utilizaremos um banco de dados chamado `tech_news`.
@@ -291,58 +99,21 @@ python3 -m pytest
 
 </details>
 
-<details>
-  <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
+### Autores
+Esse foi um projeto individula.
+### Ferramentas usadas
+Foi usado Visual Studio Code, além do Trello que auxiliou na organização das tarefas.
+### Framework usado
+# Boas-vindas ao repositório do Tech News
 
-  Para sinalizar que o seu projeto está pronto para o _"Code Review"_, faça o seguinte:
+## :footprints:Requisitos
+### Metodologia usada
+No trabalho do desenvolvimento de software a gente sempre tem prazos, muitas vezes os prazos são apertados.<br>
+Por outro lado, eu não quero criar algo que não entendo perfeitamente, como também fazer códigos rápidos pode levar a erros que podem demorar muito pra corrigir.<br>
+Por isso, usei e sempre uso o método Baby Steps, que é uma estratégia de abordar o desafio passo à passo, defensivamente.<br>
+Baby steps é um termo em inglês que quer dizer passos de bebê. Refere-se a fazer as coisas, quaisquer que sejam, devagar, com calma, passo a passo.
 
-  - Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-    - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-    - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-019-a`.
-
-  Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-</details>
-
-<details>
-  <summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-  Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
-</details>
-
-<details>
-  <summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary><br />
-
-  Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. 
-  **Leva menos de 3 minutos!**
-
-[FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://bit.ly/2OfLJPn)
-
-</details>
-
-<details>
-  <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-
-  Agora que você finalizou os requisitos, chegou a hora de mostrar ao mundo que você aprendeu algo novo! 🚀
-
-  Siga esse [**guia que preparamos com carinho**](https://app.betrybe.com/course/career/personal_portfolio/utilizando-projetos-feitos-na-trybe/d7ca7f50-0a8f-4b10-b360-cfcb454d832a) para disponibilizar o projeto finalizado no seu GitHub pessoal.
-
-  Esse passo é super importante para ganhar mais visibilidade no mercado de trabalho, mas também é útil para manter um back-up do seu trabalho.
-
-  E você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-
-</details>
-
----
-
-# Requisitos obrigatórios
-
-## 1 - Crie a função `fetch`
+#### :footprints:Requisito 1 - Crie a função `fetch`
 local: `tech_news/scraper.py`
 
 Antes de fazer scrape, precisamos de uma página! Esta função será responsável por fazer a requisição HTTP ao site e obter o conteúdo HTML.
@@ -398,7 +169,7 @@ Alguns cuidados deverão ser tomados: como a nossa função poderá ser utilizad
 
 </details>
 
-## 2 - Crie a função `scrape_novidades`
+#### :footprints:Requisito 2 - Crie a função `scrape_novidades`
 local: `tech_news/scraper.py`
 
 Para conseguirmos fazer o scrape da página de uma notícia, primeiro precisamos de links para várias páginas de notícias. Estes links estão contidos na página inicial do blog da Trybe (https://blog.betrybe.com). 
@@ -439,7 +210,7 @@ Esta função fará o scrape da página Novidades para obter as URLs das página
 
 </details>
 
-## 3 - Crie a função `scrape_next_page_link`
+#### :footprints:Requisito 3 - Crie a função `scrape_next_page_link`
 local: `tech_news/scraper.py`
 
 Para buscar mais notícias, precisaremos fazer a paginação, e para isto, vamos precisar do link da próxima página. Esta função será responsável por fazer o scrape deste link.
@@ -460,7 +231,7 @@ Para buscar mais notícias, precisaremos fazer a paginação, e para isto, vamos
 
 </details>
 
-## 4 - Crie a função `scrape_noticia`
+#### :footprints:Requisito 4 - Crie a função `scrape_noticia`
 local: `tech_news/scraper.py`
 
 Agora que sabemos pegar páginas HTML, e descobrir o link de notícias, é hora de fazer o scrape dos dados que procuramos! 
@@ -519,7 +290,7 @@ Parabéns! Este é o requisito mais longo do projeto, e também a funcionalidade
 ---
 
 
-## 5 - Crie a função `get_tech_news` para obter as notícias!
+#### :footprints:Requisito 5 - Crie a função `get_tech_news` para obter as notícias!
 local: `tech_news/scraper.py`
 
 Agora, chegou a hora de aplicar todas as funções que você acabou de fazer. Com estas ferramentas prontas, podemos fazer nosso scraper mais robusto com a paginação.
@@ -552,7 +323,7 @@ Não altere as funções deste módulo; elas serão utilizadas nos testes.
 
 </details>
 
-## 6 - Crie a função `search_by_title`
+#### :footprints:Requisito 6 - Crie a função `search_by_title`
 local: `tech_news/analyzer/search_engine.py`
 
 Agora que temos meios de popular nosso banco de dados com notícias, podemos começar a fazer as buscas! Esta função irá fazer buscas por título.
@@ -601,7 +372,7 @@ Exemplo:
 </details>
 
 
-## 7 - Crie a função `search_by_date`
+#### :footprints:Requisito 7 - Crie a função `search_by_date`
 local: `tech_news/analyzer/search_engine.py`
 
 Esta função irá buscar as notícias do banco de dados por data.
@@ -641,7 +412,7 @@ Esta função irá buscar as notícias do banco de dados por data.
 
 </details>
 
-## 8 - Crie a função `search_by_tag`,
+#### :footprints:Requisito 8 - Crie a função `search_by_tag`,
 local: `tech_news/analyzer/search_engine.py`
 
 Esta função irá buscar as notícias por tag.
@@ -681,7 +452,7 @@ Esta função irá buscar as notícias por tag.
 
 </details>
 
-## 9 - Crie a função `search_by_category`
+#### :footprints:Requisito 9 - Crie a função `search_by_category`
 local: `tech_news/analyzer/search_engine.py`
 
 Esta função irá buscar as notícias por categoria.
@@ -720,8 +491,7 @@ Esta função irá buscar as notícias por categoria.
 </details>
 
 
-## 10 - Crie a função `top_5_news`
-local: `tech_news/analyzer/ratings.py`
+## #### :footprints:Requisito local: `tech_news/analyzer/ratings.py`
 
 Esta função irá listar as cinco notícias mais populares; nosso critério de popularidade será a quantidade de comentários.
 
@@ -751,109 +521,3 @@ Esta função irá listar as cinco notícias mais populares; nosso critério de 
 - Será validado que é possível buscar as cinco top notícias
 - Será validado que é possível buscar as cinco top notícias e retornar vazio caso não tenha nenhuma notícia
 - Caso houver menos de 5 notícias, serão retornadas quantas houverem
-
-
-## 11 - Crie a função `top_5_categories`
-local: `tech_news/analyzer/ratings.py`
-
-Esta função irá listar as cinco categorias com maior ocorrência no banco de dados. 
-
-- A função deve buscar as categorias do banco de dados e calcular a sua "popularidade" com base no número de ocorrências;
-- As top 5 categorias da análise devem ser retornadas em uma lista no formato `["category1", "category2"]`;
-- A ordem das categorias retornadas deve ser da mais popular para a menos popular, ou seja, categorias que estão em mais notícias primeiro;
-- Em caso de empate, o desempate deve ser por ordem alfabética de categoria.
-- Caso haja menos de cinco categorias, no banco de dados, deve-se retornar todas as categorias existentes;
-- Caso não haja categorias disponíveis, deve-se retornar uma lista vazia.
-
-<details>
-  <summary>
-    <b>✍️ Teste manual</b>
-  </summary>
-  Abra um terminal Python importando esta função através do comando:
-  
-  `python3 -i tech_news/analyzer/ratings.py`
-  
-  Agora invoque a função utilizando diferentes parâmetros. Exemplo:
-  
-  `top_5_categories()`.
-
-</details>
-
-<details>
-  <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
-  </summary>
-
-  - Será validado que é possível buscar as cinco top categorias
-
-  - Será validado que é possível buscar as cinco top categorias e retornar vazio caso não tenha nenhuma notícia
-
-  - Caso houver menos de 5 categorias, serão retornadas quantas houverem
-
-</details>
----
-
-# Requisitos bônus:
-
-## 12 - Crie a função `analyzer_menu`
-local: `tech_news/menu.py`
-
-Esta função é o menu do nosso programa. Através dele poderemos operar as funcionalidades que criamos. Será um menu de opções, em que cada opção pede as informações necessárias para disparar uma ação.
-
-- O texto exibido pelo menu deve ser exatamente:
-```
-Selecione uma das opções a seguir:
- 0 - Popular o banco com notícias;
- 1 - Buscar notícias por título;
- 2 - Buscar notícias por data;
- 3 - Buscar notícias por tag;
- 4 - Buscar notícias por categoria;
- 5 - Listar top 5 notícias;
- 6 - Listar top 5 categorias;
- 7 - Sair.
-```
-
-- Caso a opção `0` seja selecionada, seve-se exibir a mensagem "Digite quantas notícias serão buscadas:"
-- Caso a opção `1` seja selecionada, deve-se exibir a mensagem "Digite o título:";
-- Caso a opção `2` seja selecionada, deve-se exibir a mensagem "Digite a data no formato aaaa-mm-dd:";
-- Caso a opção `3` seja selecionada, deve-se exibir a mensagem "Digite a tag:";
-- Caso a opção `4` seja selecionada, deve-se exibir a mensagem "Digite a categoria:";
-- Caso a opção não exista, exiba a mensagem de erro "Opção inválida" na `stderr`.
-
-📌 A função `input` deve ser utilizada para receber a entrada de dados da pessoa usuária.
-
-<details>
-  <summary>
-    <b>✍️ Teste manual</b>
-  </summary>
-  
-  Dentro de um ambiente virtual onde seu projeto foi configurado, para o menu ser exibido digite o comando
-  
-  `tech-news-analyzer`
-  
-  Isto acontece pois durante a configuração inicial do projeto já configuramos para que a função seja corretamente chamada quando este comando seja invocado.
-</details>
-
-## 13 - Implemente as funcionalidades do menu
-local: `tech_news/menu.py`
-
-- Quando selecionada uma opção do menu, e inseridas as informações necessárias, a ação adequada deve ser realizada.
-- Caso a opção `0` seja selecionada, a função `get_tech_news` deve ser importada;
-- Caso a opção `1` seja selecionada, a função `search_by_title` deve ser importada e seu resultado deve ser impresso em tela;
-- Caso a opção `2` seja selecionada, a função `search_by_date` deve ser importada e seu resultado deve ser impresso em tela;
-- Caso a opção `3` seja selecionada, a função `search_by_tag` deve ser importada e seu resultado deve ser impresso em tela;
-- Caso a opção `4` seja selecionada, a função `search_by_category` deve ser importada e seu resultado deve ser impresso em tela;
-- Caso a opção `5` seja selecionada, a função `top_5_news` deve ser importada e seu resultado deve ser impresso em tela;
-- Caso a opção `6` seja selecionada, a função `top_5_categories` deve ser importada e seu resultado deve ser impresso em tela;
-- Caso a opção `7` seja selecionada, deve-se encerrar a execução do script e exibir a mensagem "Encerrando script";
-- Caso alguma exceção seja lançada, a mesma deve ser capturada e sua mensagem deve ser exibida na saída padrão de erros (`stderr`).
-
-<details>
-  <summary>
-    <b>✍️ Teste manual</b>
-  </summary>
-  
-  Dentro de um ambiente virtual onde seu projeto foi configurado, para interagir com o menu digite o comando
-  
-  `tech-news-analyzer`
-</details>
